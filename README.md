@@ -2,6 +2,11 @@
 
 - Required ubuntu container
 
+```s
+apt update
+apt install nano
+```
+
 ### File permission [d][owner][group][other]
 
 ```s
