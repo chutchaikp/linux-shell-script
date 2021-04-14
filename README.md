@@ -1,10 +1,14 @@
 # linux-shell-script learning
 
-- Required ubuntu container
+# **:construction: `UNDER CONTRUCTION`**
+
+- Required ubuntu container - create image file form `Dockerfile`
+- Run container
+- Interact the container `docker run --rm -it chutchaikp/ubuntu:1.0.1 `
 
 ```s
-apt update
-apt install nano
+root@89b7ec96303d:/app# apt update
+root@89b7ec96303d:/app# apt install nano
 ```
 
 ### File permission [d][owner][group][other]
@@ -18,10 +22,10 @@ drwxr-xr-x  12 apple  staff  384 Apr 13 14:50 .git
 -rw-r--r--   1 apple  staff   21 Apr 13 14:49 README.md
 ```
 
-- [d] - directory
-- [r] - read - 4
-- [w] - write - 2
-- [x] - execute - 1
+- d - directory
+- r - read - 4
+- w - write - 2
+- x - execute - 1
 
 example: drwxr-xr-x => 755
 
